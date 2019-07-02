@@ -6,9 +6,9 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features={"src/main/resources/sush5.Feature"},
+@CucumberOptions(features={"src/main/resources/sush1.Feature"},
 				  glue="Stepdefinition",
-				  plugin="html:target/htmlreport"
+				  plugin="json:target/jsonreport"
 				
 				  //tags={"@smoke"}
 				  //tags={"@regression"}
